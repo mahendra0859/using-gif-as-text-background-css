@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background-color: #050505;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  width: 850px;
+  background: url(giphy.gif);
+  font-size: 100px;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
